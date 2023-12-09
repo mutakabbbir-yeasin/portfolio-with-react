@@ -12,6 +12,10 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+  sectionSubHeadText:
+    "text-white font-black md:text-[25px] sm:text-[20px] xs:text-[15px] text-[20px] mt-5",
+  sectionSkillText:
+    "sm:text-[18px] text-[14px] text-secondary tracking-wider mt-2",
 };
 
 export { styles };

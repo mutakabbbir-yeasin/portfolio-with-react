@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import view from "./view.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,14 +22,22 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import safebangla from "./company/safebangla.png";
+import ses from "./company/ses.png";
+import teamlogo from "./company/teamlogo.png";
+import suffix from "./company/suffix.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import fitness from "./fitness.png";
+import furniture from "./furniture.png";
+import marriage from "./marriage.png";
+import wallet from "./wallet.png";
+import justice from "./justice.png";
+import normal from "./normal.png";
+import savings from "./savings.png";
+import area from "./area.png";
+import temperature from "./temperature.png";
+import normal_portfolio from "./normal_portfolio.png";
 
 export {
   logo,
@@ -37,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  view,
   menu,
   close,
   css,
@@ -52,11 +62,19 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  safebangla,
+  suffix,
+  ses,
+  teamlogo,
+  portfolio,
+  fitness,
+  furniture,
+  marriage,
+  wallet,
+  justice,
+  normal,
+  savings,
+  area,
+  temperature,
+  normal_portfolio,
 };

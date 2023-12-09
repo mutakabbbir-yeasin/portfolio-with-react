@@ -18,11 +18,10 @@ const Hero = () => {
         <div>
           <h1 className={`text-5xl font-bold text-white`}>
             Hi, I'm
-            <span className="text-[#915EFF]">Mutakabbir Yeasin (Safin)</span>
+            <span className="text-[#915EFF]"> Mutakabbir Yeasin (Safin)</span>
           </h1>
           <p className={`text-2xl font-normal mt-2 text-white-100`}>
-            I develop web applications, user <br className="sm:block hidden" />
-            interfaces.
+            Frond-end Developer
           </p>
         </div>
       </div>
