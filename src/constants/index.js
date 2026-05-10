@@ -16,10 +16,11 @@ import {
   docker,
   creator,
   teamlogo,
+  // shikho,
   safebangla,
   suffix,
   ses,
-  portfolio,
+  // portfolio,
   fitness,
   furniture,
   marriage,
@@ -32,6 +33,11 @@ import {
   normal_portfolio,
   threejs,
 } from "../assets";
+import shikho from "../assets/shikho.webp";
+import organic from "../assets/organic.png";
+import farming from "../assets/farming.png";
+import lms from "../assets/lms.png";
+import kkit from "../assets/company/kkit.png"
 
 export const navLinks = [
   {
@@ -123,26 +129,73 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "Working under a Software Developer Team",
+  //   icon: teamlogo,
+  //   iconBg: "#E6DEDD",
+  //   date: "October 2023 - December 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js, Next,js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+
+  // {
+  //   title: "Academic Counsellor",
+  //   company_name: "Shikho",
+  //   icon: shikho,
+  //   iconBg: "#E6DEDD",
+  //   date: "January, 2024 - June, 2024",
+  //   points: [
+  //     "Convinced prospective students to enroll in Shikho's courses by effectively communicating the value proposition over phone calls.",
+  //     "Met and exceeded weekly sales targets consistently, showcasing strong sales and persuasion skills.",
+  //     "Managed accurate records of student interactions and transactions using CRM software for systematic follow-up and customer management",
+  //     "Resolved student queries and concerns, turning potential challenges into opportunities for enrollment.",
+  //     "Participated in continuous training sessions to stay updated on industry trends, sales techniques, and educational program details.",
+  //   ],
+  // },
+
   {
-    title: "Software Engineer",
-    company_name: "Working under a Software Developer Team",
-    icon: teamlogo,
+    title: "Web Design Trainer",
+    company_name: "KK IT Ltd.",
+    icon: kkit,
     iconBg: "#E6DEDD",
-    date: "August 2020 - Running",
+    date: " January, 2026 - running",
     points: [
-      "Developing and maintaining web applications using React.js, Next,js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conduct training sessions on HTML, CSS, Bootstrap, and JavaScript.",
+      "Create course modules and lesson plans for web development.",
+      "Teach students to build responsive websites.",
+      "Provide project-based front-end development training..",
+      "Guide students in debugging and problem-solving.",
+      "Evaluate assignments and student performance.",
+      "Evaluate assignments and student performance.",
+      "Teach responsive design using Bootstrap and CSS.",
+      "Introduce JavaScript fundamentals and DOM manipulation.",
+      "Help students complete portfolio projects.",
+      "Deliver lessons through live coding demonstrations.",
     ],
+    
+
+
+
+
+
+
+
+
+
   },
 
+  
   {
     title: "Front-end Developer (Intern)",
     company_name: "Suffix It Limited",
     icon: suffix,
     iconBg: "#E6DEDD",
-    date: " May 2023 - July 2023",
+    date: " July, 2023 - August, 2023",
     points: [
       " Developed responsive web pages from wireframes and visual designs using HTML, CSS, and JavaScript.",
       "Implemented UI/UX best practices to enhance user engagement and improve website usability.",
@@ -158,7 +211,7 @@ const experiences = [
     company_name: "Search Engine School",
     icon: ses,
     iconBg: "#E6DEDD",
-    date: "July 2021 – November 2021",
+    date: "Jan, 2023 – June, 2023",
     points: [
       "Built websites using WordPress.",
       "Prepared website proposals for the clients.",
@@ -169,11 +222,11 @@ const experiences = [
   },
 
   {
-    title: "IT operator & Facebook page manager (part time)",
+    title: "IT operator & Digital Marketer (part time)",
     company_name: "Safe Bangla Trade International",
     icon: safebangla,
     iconBg: "#E6DEDD",
-    date: "June 2020 – January 2021",
+    date: "June, 2020 – January, 2021",
     points: [
       "Created better content for our products.",
       "Customized photo of products.",
@@ -231,46 +284,145 @@ const projects = [
   //   image: portfolio,
   //   source_code_link: "https://earnest-khapse-9a3cee.netlify.app",
   // },
+
+  // fitness site
   {
     name: "Fitness Site",
     description:
       "I've created a fitness website using React and custom CSS that's fully responsive. It offers workout routines, nutrition tips, and progress tracking, with a unique and visually appealing design.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
-    ],
-    image: fitness,
-    source_view_link: "https://singular-toffee-920cb0.netlify.app",
-    source_code_link:
-      "https://github.com/mutakabbbir-yeasin/gym-website-with-react",
-  },
-  {
-    name: "Furniture Website",
-    description:
-      "A full responsive Furniture website. For the complete view of the website we need to run Client Side  and Server Side Code. Client Side code link: https://mutakabbbir-yeasin.github.io/furniture_site_with_react/ and Server Side code link: https://github.com/mutakabbbir-yeasin/furniture_server_side",
-    tags: [
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
+    ],
+    image: fitness,
+    source_view_link: "https://fitness-website01.netlify.app/",
+    source_code_link:
+      "https://fitness-website01.netlify.app/",
+  },
+
+  //e-commerce site
+  {
+    name: "E-commerce Site",
+    description:
+      " On going project... It's an organic e-commerce website using bootstrap and javascript that's fully responsive with lucrative design.",
+    tags: [
       {
-        name: "tailwindcss",
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
         color: "pink-text-gradient",
       },
       {
-        name: "node",
-        color: "pink-text-gradient",
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
       },
     ],
-    image: furniture,
-    source_code_link: "https://enchanting-longma-0ffd29.netlify.app",
+    image: organic,
+    source_view_link: "https://github.com/mutakabbbir-yeasin/organic-food-ecommerce-bootstrap5",
+    source_code_link:
+      "https://mutakabbbir-yeasin.github.io/organic-food-ecommerce-bootstrap5",
   },
+
+  //education site
+  {
+    name: "LMS System",
+    description:
+      "I've created an education website using HTML, custom CSS and Bootstrap that's fully responsive. It offers student admission info, institute info, teachers info and courses info, with unique and visually appealing design.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: lms,
+    source_view_link: "https://mutakabbbir-yeasin.github.io/education_website/",
+    source_code_link:
+      "https://mutakabbbir-yeasin.github.io/education_website/",
+  },
+
+  // Farming site
+  {
+    name: "Farming Site",
+    description:
+      "It's a farming website using bootstrap that's fully responsive with lucrative design.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: farming,
+    source_view_link: "https://github.com/mutakabbbir-yeasin/organic-food-ecommerce-bootstrap5",
+    source_code_link:
+      "https://mutakabbbir-yeasin.github.io/agricultural-hub",
+  },
+
+  // {
+  //   name: "Furniture Website",
+  //   description:
+  //     "A full responsive Furniture website. For the complete view of the website we need to run Client Side  and Server Side Code. Client Side code link: https://mutakabbbir-yeasin.github.io/furniture_site_with_react/ and Server Side code link: https://github.com/mutakabbbir-yeasin/furniture_server_side",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: furniture,
+  //   source_code_link: "https://enchanting-longma-0ffd29.netlify.app",
+  // },
+  
   {
     name: "Marriage Website",
     description: "A full responsive  website.",

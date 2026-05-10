@@ -58,41 +58,43 @@ const About = () => {
       </p>
       <p className={styles.sectionSkillText}>
         <b className="text-white">Frontend Technologies:</b> HTML5, CSS3, SCSS,
-        Bootstrap5, Tailwind CSS, JavaScript
+        Bootstrap5, Tailwind CSS, JavaScript, React.js
+      </p>
+      {/* <p className={styles.sectionSkillText}>
+        <b className="text-white">JavaScript Frameworks:</b> React.js
+      </p> */}
+      <p className={styles.sectionSkillText}>
+        <b className="text-white"> Backend Technologies:</b> PHP, Laravel (basic knowledge)
       </p>
       <p className={styles.sectionSkillText}>
-        <b className="text-white">JavaScript Frameworks:</b> React.js, Next.js
-        (currently learning)
+        <b className="text-white">Databases: </b>MySql
       </p>
       <p className={styles.sectionSkillText}>
-        <b className="text-white"> Backend Technologies:</b> Node.js, Express.js
-        (basic)
+        <b className="text-white">Tools: </b>Git, GitHub, Netlify, VS Code
       </p>
       <p className={styles.sectionSkillText}>
-        <b className="text-white">Databases: </b>Firebase, MongoDB, MySql
+        <b className="text-white">CMS: </b> WordPress (customization)
       </p>
-      <p className={styles.sectionSkillText}>
-        <b className="text-white">Version Control: </b> Git and GitHub
-      </p>
-      <h3 className={styles.sectionSubHeadText}>
+      {/* <h3 className={styles.sectionSubHeadText}>
         Passion for Frontend Development
-      </h3>
+      </h3> */}
+      <br />
       <p className={styles.sectionSkillText}>
         With a solid grasp of HTML, CSS, and JavaScript, I specialize in
         creating visually appealing and responsive user interfaces. My
-        proficiency in frontend frameworks like React.js empowers me to build
+        proficiency in JavaScript and libraries such as React.js empowers me to build
         dynamic, interactive, and performant web applications. I am currently
         expanding my skills by diving deeper into Next.js to enhance server-side
         rendering capabilities.
       </p>
 
-      <h3 className={styles.sectionSubHeadText}>Backend Expertise</h3>
+      {/* <h3 className={styles.sectionSubHeadText}>Backend Expertise</h3>
       <p className={styles.sectionSkillText}>
-        I have experience in backend development using Node.js and Express.js,
+        I have basic experience in backend development using PHP and Laravel,
         allowing me to create robust server-side solutions and APIs.
         Additionally, I've worked with Firebase and MongoDB to design scalable
         and secure backend data systems.
-      </p>
+      </p> */}
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

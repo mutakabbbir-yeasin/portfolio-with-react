@@ -8,6 +8,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// emailjs.init({
+//   publicKey: "LqDP-TGZsbPuitEv7",
+//   blockHeadless: true,
+// });
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -34,8 +39,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_g7zqo49",
-        "template_7733msr",
+        "service_3a5gtxb",
+        "template_mvn5e1f",
         {
           from_name: form.name,
           to_name: "Mutakabbir Yeasin",
@@ -65,6 +70,7 @@ const Contact = () => {
       );
   };
 
+  
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
